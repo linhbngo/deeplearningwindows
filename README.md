@@ -12,7 +12,7 @@ http://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/#verify-yo
 - [CUDNN - CUDA for Deep Neural Networks](https://developer.nvidia.com/cudnn)
 
 
-
+Need to set up Visual Studio in order to compile and run `deviceQuery`
 
 Installing TensorFlow into Windows Python is a simple pip command. As of the writing of this post, TensorFlow requires Python 2.7, 3.4 or 3.5. In my case I used Anaconda Python 3.5. Read here to see what is currently supported The first thing that I did was create CPU and GPU environment for TensorFlow. This keeps them separate from other non-deep learning Python environments that I have. To create my CPU TensorFlow environment, I used:
 1
